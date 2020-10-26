@@ -1,0 +1,17 @@
+#app-container .colors-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+#app-container .color-box {
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+#app-container .color-box.selected {
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
