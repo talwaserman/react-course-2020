@@ -1,0 +1,7 @@
+#app-container ul {
+  padding: 0;
+}
+
+#app-container ul li {
+  list-style-type: none;
+}
