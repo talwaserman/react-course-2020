@@ -1,0 +1,17 @@
+#app-container .cell {
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background: #eee;
+    margin-left: 5px;
+}
+
+#app-container .cell:last-child {
+    background: red;
+}
+
+#app-container .new-game-btn {
+    display: block;
+    margin-bottom: 20px;
+}
